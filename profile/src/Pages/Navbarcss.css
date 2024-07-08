@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f5f5f5; /* Adjust as needed */
+}
+
+.logo {
+  margin: 0; /* Remove default margin for headings */
+}
+
+.welcome {
+  margin-left: auto; /* Position the welcome message to the right */
+}
+
+.logout {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd; /* Add a subtle border */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout:hover {
+  background-color: #eee;
+}
